@@ -1,3 +1,5 @@
+# This is a comment. to remove the comments remove the # at the start of the line.
+
 name: business_card
 description: "A new Flutter project."
 publish_to: 'none'
@@ -17,3 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  # assets:
+  #   - assets/images/dash.png

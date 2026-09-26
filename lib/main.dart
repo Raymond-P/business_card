@@ -14,7 +14,10 @@ class MainApp extends StatelessWidget {
         body: Center(
           child: Column(
             mainAxisAlignment: .center,
-            children: [Text('Hello World!')],
+            children: [
+              Text('Hello World!'),
+              // Image.asset("assets/images/dash.png"),
+            ],
           ),
         ),
       ),
