@@ -16,6 +16,48 @@ class MainApp extends StatelessWidget {
             mainAxisAlignment: .center,
             children: [
               Text('Hello World!'),
+              Row(
+                children: [
+                  Icon(
+                    Icons.catching_pokemon,
+                    color: const Color.fromARGB(255, 255, 17, 0),
+                  ),
+                  Text('Hello World!'),
+                ],
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.catching_pokemon,
+                    color: const Color.fromARGB(255, 255, 17, 0),
+                  ),
+                  Text('Hello World!'),
+                ],
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.catching_pokemon,
+                    color: const Color.fromARGB(255, 255, 17, 0),
+                  ),
+                  Text('Hello World!'),
+                ],
+              ),
+              Icon(
+                Icons.catching_pokemon,
+                color: const Color.fromARGB(255, 255, 17, 0),
+              ),
+              Text('Hello World!'),
+              Icon(
+                Icons.catching_pokemon,
+                color: const Color.fromARGB(255, 255, 17, 0),
+              ),
+              Image.network(
+                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg',
+                width: 100,
+                height: 100,
+              ),
+
               // Image.asset("assets/images/dash.png"),
             ],
           ),
