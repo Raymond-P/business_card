@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import "./sample_user_input.dart";
+import './in_class_exercise.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,7 +11,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(body: SampleUserInput()));
+    return MaterialApp(home: 
+    Scaffold(
+      // body: 
+      body: InClassExercise(),
+      ));
   }
 }
 
